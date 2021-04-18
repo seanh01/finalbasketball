@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!-- The following lines are comments
+     Author: Sean Henry
+     Date Created: 12/03/2021
+     Page Description: Contact page display of NBA -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />  <!-- charachter of encoding-->
+        <meta name="description" content="Basketball statistics website">
+        <meta name="keywords" content="Basketball, basketball statistics, best teams, top NBA players, history, rules, regulations, court, contact, location">
+        <title>Basketball Stats 2021</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="icon" href="favicon/favicon.ico" type="image/gif" sizes="16x16">
+    </head>
+        <header>
+           <img style="float:left; margin-right: 20px; height:80px; padding-top: 0px;" src="images/535-5355412_basketball-logo-png-transparent-basketball-logo-design-free.png" alt="Logo">
+              <h1>Basketball Stats 2021</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="court.html">Court</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                    <li><a href="map.html">Location</a></li>
+                </ul>
+            </nav>
+        <style>
+            
+            label {
+                float: left;
+                width: 250px;
+                padding-left: 10px;
+                text-align: right;
+            }
+            
+            input {
+                margin-left: 1em;
+                margin-bottom: .5em;
+                width: 220px;
+            }
+            
+            #button, #reset {
+                margin-top: 5.5em;
+                width: 8em;
+                background-color: orange;
+                border: 2px solid black;
+            }
+            
+            input[type="checkbox"] {width: 15px;}
+            
+            #button {
+                margin-left: 138px;
+            }
+            
+            #reset {
+                margin-left: 82px;
+            }
+            
+            input[type="radio"] {width: 10px;}
+            
+            .required {
+                font-weight: bold;
+                color: red;
+            }
+            
+            body {
+                font-family: sans-serif;
+                background-image:url(images/formLogo.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 10px;
+            }
+            
+            main {
+                margin: 15px 200px;
+                padding: 20px;
+                border: black solid 1px;
+                background: white;
+                min-height: 650px;
+            }
+    </style>
+        <body>
+        <main>
+            <section>
+                <h2>Please enter the following information: </h2>
+                <form action="http://foo.com" method="get">
+                    <label for="first_name">First Name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last Name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required><br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="john@example.com">
+                    <br>
+                    
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="gender" name="gender" value="male"> Male
+                    <input type="radio" id="gender" name="gender" value="female"> Female
+                    <input type="radio" id="gender" name="gender" value="other"> Other <br>
+                    <label for="internet">Heard of us:</label>
+                    <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="paper" value="paper"> Newspaper <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="paper" value="friend"> Friend <br>
+                    <input type="checkbox" class="marginl" id="hearr" name="paper" value="Add"> Others <br>
+                    </fieldset>
+                    <br>
+                    
+                    <label for="message">Query : </label>
+                    <textarea cols="40"rows="5" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+                    
+                    <input type="submit" name="submit" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                </form>
+            </section>
+        </main>
+            <footer>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="players.html">Players</a></li>
+            <li> <a href="teams.html">Teams</a></li>
+            <li> <a href="history.html">History</a></li>
+            <li> <a href="rules.html">Rules</a></li>
+            <li> <a href="court.html">Court</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="map.html">Location</a></li>
+            </ul>
+            <small>&copy; 2021 Basketball Stats</small>
+        </footer>
+    </body>
+</html>

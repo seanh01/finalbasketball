@@ -1,0 +1,289 @@
+body {
+    background-color: lightskyblue;
+    font-family: sans-serif;
+}
+
+nav
+{
+    background-color: blue;
+    height: 95px;
+    width: 100%;
+    padding-top: 1px
+}
+
+nav ul {
+    text-align: center;
+}
+
+
+nav ul li
+{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 8px;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background: orange;
+    transition: .4s;
+}
+
+
+header
+{
+    background-color: #f02554;
+    padding: 10px;
+}
+
+.players {
+    text-align: center;
+    border:5px solid black;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+#active {
+    border-color: yellow;
+}
+
+
+
+
+#content {
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+}
+
+#Lebron {
+    text-align: center;
+}
+
+
+
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    margin-left: 25px;
+}
+
+img {
+   padding: 10px;
+}
+
+p {
+    padding: 150px;
+    font-size: 20px;
+    border: 5px solid purple;
+    background: white;
+    border-radius: 5px;
+}
+
+
+.centred {
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+h1 {
+}
+
+h3 {
+    font-size: 35px;
+    text-align: center;
+    color: #6d096d;
+}
+
+section {
+    font-size: 25px;
+    padding: 20px;
+    border: 6px solid black;
+}
+
+
+footer {
+    clear: both;
+    border: 2px solid purple;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+
+
+
+footer ul li {
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 20px;
+}
+
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+.map {
+    border: 0;
+    float: left;
+    margin-bottom: 129px;
+    border: 10px solid black;
+}
+
+.address {
+    padding-top: 40px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+article {
+    font-size: 25px;
+}
+
+
+
+.required {
+    font-weight: bold;
+    color: red;
+}
+
+.nav_button {
+    list-style: none;
+}
+
+.nav_button li {
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+.nav_button li a {
+    padding: 5px;
+}
+
+.up {
+    padding-top: 40px;
+    margin-left: 15px;
+}
+
+.more {
+    padding-top: 25px;
+    margin-left: 15px;
+}
+
+
+
+.line {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: yellow;
+}
+
+.lines {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #d0b2ea;
+    border: 5px solid yellow;
+}
+
+.liness {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #d0b2ea;
+    border: 5px solid yellow;
+}
+
+.other {
+    background: #d0b2ea;
+    border: 5px solid yellow; 
+}
+
+.picture {
+    border: 10px solid yellow;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.movedown {
+    margin-bottom: 5px;
+}
+
+.arrow {
+    padding-left: 50px;
+    width: 20%;
+    padding-bottom: 50px;
+}
+
+.link {
+    margin-left: 40px;
+}
+
+.stats {
+    margin-top: 60px;
+}
+
+.column {
+    column-count: 4;
+    column-rule: 5px solid yellow;
+    column-gap: 50px;
+    padding: 2px;
+    background: #d0b2ea;;
+}
+
+.history_font {
+    font-size: 30px;
+}
+
+.border {
+    border: 8px solid yellow;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+
+.font_h2_homePage {
+    font-size: 40px;
+}
+
+.border_middle {
+    border: 8px solid yellow;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.yellow_arrow {
+    margin-left: 100px;
+    margin-bottom: 170px;
+}

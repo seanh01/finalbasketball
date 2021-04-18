@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!-- The following lines are comments
+     Author: Sean Henry
+     Date Created: 12/03/2021
+     Page Description: Players page display of top players in the NBA -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />  <!-- charachter of encoding-->
+        <meta name="description" content="Basketball statistics website">
+        <meta name="keywords" content="Basketball, basketball statistics, best teams, top NBA players, history, rules, regulations, court, contact, location">
+        <title>Basketball Stats 2021</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link rel="icon" href="favicon/favicon.ico" type="image/gif" sizes="16x16">
+    </head>
+    <body> <!-- body tag start of body section-->
+        <style>
+        .table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            margin-left: 40px;
+            margin-top: 70px;
+            width: 900px;
+        }
+        
+        .table thead tr {
+            background-color: purple;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        .table th,
+        .table td {
+            padding: 12px 15px;
+        }
+        
+        .table tbody tr {
+            border-bottom: 1px solid grey;
+        }
+        
+        .table tbody tr:nth-of-type(even) {
+            background-color: white;
+        }
+        
+        
+        .table tbody tr:nth-of-type(odd) {
+            background-color: #ededed;
+        }
+        
+        .table tbody tr:last-of-type {
+            border-bottom: 5px solid purple;
+        }
+        
+        .table tbody tr.active-row {
+            font-weight: bold;
+            color: purple;
+        }
+    </style>
+        <header>
+           <img style="float:left; margin-right: 20px; height:80px; padding-top: 0px;" src="images/535-5355412_basketball-logo-png-transparent-basketball-logo-design-free.png" alt="Logo">  
+              <h1>Basketball Stats 2021</h1>
+            </header>
+            <nav>
+            <!-- Navigation menu-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="players.html">Players</a></li>
+                    <li><a href="teams.html">Teams</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="court.html">Court</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="map.html">Location</a></li>
+                </ul>
+            </nav>
+        <main>
+            <section>
+        <h2>Top NBA players</h2>
+              <ol>
+                  <h3><li>Lebron James </li></h3>
+                  <img class="up"style="float: left"src="images/Lebron.jpg"alt="leader"width=30% height=350px/>
+                  <p class="other"> When LeBron James secured his fourth NBA championship in August, The King cemented himself as the league's best player. After all, James has made it to the NBA Finals each year he's been healthy since 2011. With possibly the best second star he's paired with hin his accomplished career, James led the NBA in assists last year with 10.2 apg. He's the most well-rounded player of this generation, and while there's talented stars chasing his throne, James' chase to be the greatest of all time keeps him motivated to be the best player right now.</p>
+                  <h3><li>Kevin Durant</li></h3>
+                  <img class="more"style="float:left" src="images/Kevin.jpg" width=30% height=350px>
+                  <p class="other">Before getting sidelined with a torn Achilles injury in the 2019 NBA Finals, Kevin Durant was the clear No. 2 in the league. As one of the most elite scorers in NBA history, Durant picked up his defensive effort on the loaded Warriors squad. Now after over a year of rehab and Durant looks as good as ever, averaging 31.2 ppg on an efficient 53.8 FG%, 7.2 rpg, and 5.8 apg.</p>
+                  <h3><li>Giannis AntetoKounmpo</li></h3>
+                  <img class="more"style="float:left;" src="images/giannis.jpg" width=30% height=350px>
+                  <p class="other">The winner of the last two NBA Most Valuable Player awards, Giannis Antetokounmpo hasn't been able to get it done in the postseason. With two straight exits in the second round, Antetokounmpo's lack of shooting ability has certainly cost him when it matters most. Still, the Greek Freak's seemingly never-ending wingspan and elite athleticism make him an unstoppable force in transition and on the defensive end.</p>
+                  <h3><li>Stephen Curry</li></h3>
+                  <img class="more"style="float:left" src="images/stephen.jpg" width=30% height=350px>
+                  <p class="other">Perhaps the best shooter of all time, Steph Curry has been proving something during the first portion of the 2020-21 season that's been a knock on him during the Warriors' dynasty: he can win games all on his own. Curry has singlehandedly taken over games against the Lakers and more to start this season - even setting a new career-high 62 points against Portland.</p>
+                  <h3><li>James Harden</li></h3>
+                  <img class="up"style="float:left" src="images/James.jpg" width=30% height=350px>
+                  <p class="other">Though James Harden's nine-year tenure with Houston ended distastefully, his scoring ability will never go overlooked. What does go overlooked, though, is his vision. Harden led the league in assists per game when he played primarily at the point for the Rockets during the 2016-17 season and is doing so once again this season. In his first handful of games with Brooklyn, Harden has produced 12 apg and that's a trend that won't go away anytime soon with the talented shooters the Nets boast.</p>
+                  </ol>
+                <a class="link"href="https://www.nbcsports.com/washington/wizards/2021-ranking-top-20-nba-players-right-now">Click for more information on players</a>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Games</th>
+                    <th>Points</th>
+                    <th>Team</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="active-row">>
+                          <td>1</td>
+                          <td>Lebron James</td>
+                          <td>41</td>
+                          <td>25.4</td>
+                          <td>LA Lakers</td>
+                      </tr>
+                      <tr>
+                          <td>2</td>
+                          <td>Kevin Durant</td>
+                          <td>20</td>
+                          <td>28.4</td>
+                          <td>Brooklyn Nets</td>
+                      </tr>
+                      <tr>
+                          <td>3</td>
+                          <td>Giannis AntetoKounmpo</td>
+                          <td>45</td>
+                          <td>28.8</td>
+                          <td>Milwaukee Bucks</td>
+                      </tr>
+                      <tr>
+                          <td>4</td>
+                          <td>Stephen Curry</td>
+                          <td>44</td>
+                          <td>29.7</td>
+                          <td>Golden State Warriors</td>
+                      </tr>
+                      <tr>
+                          <td>5</td>
+                          <td>James Harden</td>
+                          <td>42</td>
+                          <td>25.2</td>
+                          <td>Brooklyn Nets</td>
+                      </tr>
+                  </tbody>
+                </table>
+                <a class="link"href="https://www.basketball-reference.com/players/j/jamesle01.html">Click for more information on the Table</a>
+            </section>
+        </main>
+        <footer>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="players.html">Players</a></li>
+            <li> <a href="teams.html">Teams</a></li>
+            <li> <a href="history.html">History</a></li>
+            <li> <a href="rules.html">Rules</a></li>
+            <li> <a href="court.html">Court</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+            <li> <a href="map.html">Location</a></li>
+            </ul>
+            <small>&copy; 2021 Basketball Stats</small>
+        </footer>
+        
+    </body>
+</html>
